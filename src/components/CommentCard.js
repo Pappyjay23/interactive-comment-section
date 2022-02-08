@@ -27,7 +27,7 @@ const CommentCard = ({name, image, desc, renderReply, children, reply}) => {
                 <p className='card-desc'>{desc}</p>
             </div>
         </div>
-        {reply ? <AddReply /> : null}
+        {/* {reply ? <AddReply /> : null} */}
         
     </>
   )
