@@ -1,7 +1,6 @@
 import React from 'react';
 import {FaReply} from "react-icons/fa"
 import { Link } from 'react-router-dom';
-import AddReply from './AddReply';
 
 const CommentCard = ({name, image, desc, renderReply, children, reply}) => {
     const count = Math.floor(Math.random()*10)
@@ -27,7 +26,6 @@ const CommentCard = ({name, image, desc, renderReply, children, reply}) => {
                 <p className='card-desc'>{desc}</p>
             </div>
         </div>
-        {/* {reply ? <AddReply /> : null} */}
         
     </>
   )
